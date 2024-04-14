@@ -50,42 +50,12 @@ export const AddCommentsForm: FunctionComponent<{nombre:string}> = ({nombre}) =>
           setError("");
         }
         }
-
-    
-
-    /*
-  const submitHandler = (e:JSX.TargetedEvent<HTMLFormElement, Event>) => {
-    e.preventDefault();
-    const errorMsg: string[] = [];
-    
-    if (name === "") {
-      errorMsg.push("You must provide a name");
-    }
-
-    if (image === "") {
-      errorMsg.push("You must provide a image");
-    }
-
-    if (sound === "") {
-        errorMsg.push("You must provide a sound");
-    }
-
-    if (creator === "") {
-        errorMsg.push("You must provide a creator");
-    }
-
-    if (errorMsg.length > 0) setError(errorMsg.join(" | "));
-    else {
-      setError("");
-      e.currentTarget.submit();
-    }
-  }
-  */
   
 
   return (
     <div class="form">
-      <h2> añade a nuestro soltero fav</h2>
+      <h2> Comenta algo bonito</h2>
+      <p> (la contraseña debe der la de este usuario, no la tuya)</p>
       
         
         <input type="text" name="password" placeholder="password" onBlur={(e) => setPassword(e.currentTarget.value)}></input>

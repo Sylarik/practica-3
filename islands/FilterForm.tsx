@@ -47,37 +47,7 @@ export const FilterForm: FunctionComponent<Lovers> = ({lovers}) => {
       setFilteredList(listaFiltrada);
     }   
     
-    //return listaFiltrada;
-  
 
-    /*
-  const submitHandler = (e:JSX.TargetedEvent<HTMLFormElement, Event>) => {
-    e.preventDefault();
-    const errorMsg: string[] = [];
-    
-    if (name === "") {
-      errorMsg.push("You must provide a name");
-    }
-
-    if (image === "") {
-      errorMsg.push("You must provide a image");
-    }
-
-    if (sound === "") {
-        errorMsg.push("You must provide a sound");
-    }
-
-    if (creator === "") {
-        errorMsg.push("You must provide a creator");
-    }
-
-    if (errorMsg.length > 0) setError(errorMsg.join(" | "));
-    else {
-      setError("");
-      e.currentTarget.submit();
-    }
-  }
-  */
   
 
   return (
@@ -92,10 +62,6 @@ export const FilterForm: FunctionComponent<Lovers> = ({lovers}) => {
 
         <button onClick={filtrar}> Filtrar  </button>
 
-        <div>
-          <p> Algunos hobbies a buscar: </p>
-          <p> *** luego ***</p>
-        </div>
          
       </div>
         

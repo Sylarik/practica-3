@@ -82,9 +82,9 @@ export const DeleteCommentForm: FunctionComponent<{nombre:string}> = ({nombre}) 
 
   return (
     <div class="form">
-      <h2> quieres borrar tus cometarios de etse perfil?</h2>
+      <h2> Quieres borrar tus cometarios de este perfil?</h2>
       
-        <p>contraseña de ese perfil (no la tuya) </p>
+        <p> (introduce la contraseña de este perfil) </p>
         <input type="text" name="password" placeholder="password" onBlur={(e) => setPassword(e.currentTarget.value)}></input>
 
         <button onClick={submitComment}> Añadir  </button>

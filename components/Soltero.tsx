@@ -11,7 +11,7 @@ export const Soltero: FunctionComponent<LoverType> = (props) => {
     const {name, age, sex, description, hobbies, photo, comments, password} = props.lover;
     return (
         <div class="cartilla">
-            <p>{name}</p>
+            <h1>{name}</h1>
             <img src={photo} class="foto"></img>
             <p>Edad: {age}</p>
             <p>Sexo: {sex}</p>

@@ -145,7 +145,7 @@ export const RegisterForm: FunctionComponent<Lovers> = ({lovers}) => {
   return (
     <div class="form">
 
-      
+      <div class="formulario">
         <input type="text" name="nombre" placeholder="name" onBlur={(e) => setName(e.currentTarget.value)}></input>
         <input type="text" name="password" placeholder="password" onBlur={(e) => setPassword(e.currentTarget.value)}></input>
 
@@ -154,12 +154,14 @@ export const RegisterForm: FunctionComponent<Lovers> = ({lovers}) => {
 
         {error !== "" && <p>{error}</p> }
         {logueado && 
-          <div>
+          <div style="justify-content: row;">
             <p>te has logueado exitosamente</p>
             <button type="submit" onClick={cookies}>Ver tu perfil</button>
             {lover && <Soltero lover={lover} />}
           </div>
         }
+      </div>
+        
 
       
     </div>

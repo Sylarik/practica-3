@@ -146,7 +146,7 @@ div.centrar {
 */
 
 body.personaje {
-  background: url("https://i.pinimg.com/474x/1b/19/da/1b19daa5443811aff7e7e00171b21309.jpg")center center fixed;
+  background-color: #000000;
   background-position: top, cover;
   background-size: cover;
   background-repeat:  no-repeat;
@@ -165,6 +165,12 @@ body.matar {
   background-repeat:  no-repeat;
 }
 body.add {
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+body.login {
   background-color: #000000;
   background-position: center;
   background-size: cover;
@@ -351,8 +357,12 @@ img.foto {
   margin: 10px;
   margin-top: 10px;
   padding: 20px;
-  width: 500px;
+  width: fit-content;
   height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 h1 {

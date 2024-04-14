@@ -27,7 +27,7 @@ const Page = (props: PageProps<Lover>) => {
 
     const lover = props.data;
     return (
-        <body>
+        <body class="personaje">
             <div>
                 <h1> ¡TU SOLTERO FAVORITO! </h1>
                 <Soltero lover={lover}/>

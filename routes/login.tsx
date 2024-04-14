@@ -31,8 +31,8 @@ export const handler: Handlers = {
 export default function Home( props:PageProps) {
   
   return (
-    <body class="index">
-      <h1>TINDER </h1>
+    <body class="login">
+
       
       <div>
         <RegisterForm lovers = {props.data}/>
