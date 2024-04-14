@@ -1,0 +1,424 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+button {
+  color: inherit;
+}
+button, [role="button"] {
+  cursor: pointer;
+}
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+img,
+svg {
+  display: block;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.my-6 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.my-4 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-8 {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.bg-\[\#86efac\] {
+  background-color: #86efac;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.py-6 {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.py-1 {
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+.border-gray-500 {
+  border-color: #6b7280;
+}
+.bg-white {
+  background-color: #fff;
+}
+.flex {
+  display: flex;
+}
+.gap-8 {
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.max-w-screen-md {
+  max-width: 768px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.border-2 {
+  border-width: 2px;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.hover\:bg-gray-200:hover {
+  background-color: #e5e7eb;
+}
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* MIO */
+
+
+
+/*
+div.centrar {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente 
+  align-items: center;
+  
+ 
+}
+*/
+
+body.personaje {
+  background: url("https://i.pinimg.com/474x/1b/19/da/1b19daa5443811aff7e7e00171b21309.jpg")center center fixed;
+  background-position: top, cover;
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+body.index {
+  /*background: url("https://media-s3-us-east-1.ceros.com/hotwirepr/images/2020/11/30/3ec0e7336b9168ae6f9897f70e345bd1/fondo.png")center center fixed;*/
+  background-color: #000000;
+  background-position: top, cover;
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+body.matar {
+  background-color: #000000;
+  background-position: top, cover;
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+body.add {
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+
+
+.solteros {
+  display: flex;
+  justify-content: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.soltero {
+  /*background: url("https://i.gifer.com/3q62.gif") center;*/
+  background: url("https://media-s3-us-east-1.ceros.com/hotwirepr/images/2020/11/30/3ec0e7336b9168ae6f9897f70e345bd1/fondo.png")center;
+  background-position: top, cover, center;
+  background-size: cover;
+  background-repeat:  no-repeat;
+
+  /*background-color: #e24545;*/
+  color: rgb(0, 0, 0);
+  /*text-align: center;*/
+
+  border-radius: 10px;
+  /*
+  border: solid 2px rgb(145, 42, 151);
+  box-shadow: 2px 2px 2px rgb(172, 63, 194);
+  overflow: hidden;
+
+  */
+  justify-content: space-between;
+
+  
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+
+  margin: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 500px;
+ 
+}
+
+.name {
+  /*text-align: center;*/
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+}
+.titulo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  margin: auto;
+}
+
+.boton-no,
+.boton-si {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 100%; /* Hace que los botones sean redondeados */
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+
+}
+
+.boton-no {
+  background-color: red;
+}
+
+.boton-si {
+  background-color: rgb(122, 212, 122);
+  color: white;
+  position: relative;
+}
+
+.boton-no::before {
+  content: 'X'; /* Agrega la letra X antes del texto del enlace */
+  margin-right: 5px;
+  text-align: center;
+}
+
+.boton-si::before {
+  content: ''; /* Elimina el contenido predeterminado */
+  display: block;
+  width: 30px; /* Ajusta el ancho del símbolo */
+  height: 30px; /* Ajusta la altura del símbolo */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M0 0h24v24H0V0z" fill="none"/><path fill="white" d="M9 16.2l-3.5-3.5a.984.984 0 1 1 1.4-1.4l2.1 2.1 5.5-5.5a.984.984 0 1 1 1.4 1.4l-6 6a.984.984 0 0 1-1.4 0z"/></svg>'); /* Establece el símbolo personalizado como una imagen de fondo */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+
+
+
+.description {
+  font-style: italic;
+}
+
+.layout {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 1rem;
+ 
+  box-shadow: 0 0 50px rgba(252, 1, 1, 0.8);
+
+  width: auto;
+  height: 80px;
+  margin: auto;
+
+    
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img.preview {
+  height: 330px;
+  width: 100%;
+  object-fit: cover; /* Recorta la imagen para que llene el contenedor */
+  border-radius: 25px;
+  
+}
+/*no*/
+img.avatar {
+  height: 100px;
+  width: 100px;
+  object-fit: cover; /* Recorta la imagen para que llene el contenedor */
+  border-radius: 50%;
+  margin: 10px;
+}
+img.foto {
+  height: 400px;
+  width: 100%;
+  object-fit: cover; /* Recorta la imagen para que llene el contenedor */
+  border-radius: 25px;
+}
+
+.cartilla {
+  background: url("https://media-s3-us-east-1.ceros.com/hotwirepr/images/2020/11/30/3ec0e7336b9168ae6f9897f70e345bd1/fondo.png")center;
+  background-position: top, cover, center;
+  background-size: cover;
+  background-repeat:  no-repeat;
+  
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 500px;
+  height: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.index {
+  display: flex;
+}
+
+.input-container {
+  
+  flex: 0 0 25%; /* Tamaño fijo del 25% */
+  max-width: 200px; /* Tamaño fijo máximo */
+  background-color: rgb(0, 0, 0); /* Fondo blanco */
+  margin-right: 10px; /* Margen a la derecha */
+  padding: 10px; /* Relleno interno */
+  border-radius: 5px; /* Borde redondeado */
+  box-shadow: 0 0 50px rgba(252, 1, 1, 0.8);
+  color: white;
+}
+
+.solteros-container {
+  flex: 1; /* Se expandirá para llenar el espacio restante */
+}
+
+div.form {
+  background: url("https://media-s3-us-east-1.ceros.com/hotwirepr/images/2020/11/30/3ec0e7336b9168ae6f9897f70e345bd1/fondo.png")center;
+  box-shadow: 0 0 50px rgba(247, 0, 0, 0.8);
+  padding: 5%;
+  width: 500px;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.contenedor {
+  text-align: center; /* Centra horizontalmente el contenido del contenedor */
+}
+.contenedor img {
+  display: block; /* Convierte la imagen en un bloque para aplicar márgenes automáticos */
+  margin: 0 auto; /* Establece los márgenes laterales a 'auto' para centrar la imagen horizontalmente */
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 10prgb(0, 0, 0)
+}
